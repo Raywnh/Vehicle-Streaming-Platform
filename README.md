@@ -17,5 +17,5 @@ Built with:
 
 
 Web Application:
-![Screen_Shot_2023-04-05_at_1 59 19_PM](https://user-images.githubusercontent.com/108425957/230276881-064ac78d-2237-4460-9c46-08ac5937d8eb.png)
+![230276881-064ac78d-2237-4460-9c46-08ac5937d8eb](https://user-images.githubusercontent.com/108425957/230277421-c2f769c8-9892-4ddc-9c36-13cfed4ef4ae.png)
 
