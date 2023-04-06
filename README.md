@@ -15,7 +15,7 @@ Built with:
  - NodeJS
  - Flask
  - OpenCV
- - Apache2
+ - Apache
  - Raspberry Pi
 
 
