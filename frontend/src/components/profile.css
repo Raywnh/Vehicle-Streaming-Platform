@@ -1,0 +1,14 @@
+.ProfileCard {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.CardDescription {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
