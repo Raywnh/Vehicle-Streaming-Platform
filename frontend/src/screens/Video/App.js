@@ -66,17 +66,17 @@ function Video() {
             element.style.transform = 'translateY(-1px)';
             element.style.boxShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)';
           }
-        }
-      });
-
-    }, false);
-
+          }
+        });
+      }
+    }, false)
   }, [])
+
 
   return ( // main page
     <div className="VideoPage">
       <Sidebar />
-      <div className="VideoContent"> // the video container
+      <div className="VideoContent"> 
         <div className="VideoHeader">
           <div className="HeaderTitle"> Car First Person View</div>
           <div className='Signin'>
@@ -109,7 +109,7 @@ function Video() {
                   fontWeight: 'bold',
                   color: 'white',
                 }}> Controls </div>
-              <div className="ControlContainer"> //The contianer for the buttons, and setting them up as keys
+              <div className="ControlContainer">
               <div className="ControlOutput"> {key === ' ' ? "SPACE" : key.toUpperCase()} </div>
                 <button className="w">W</button>
                 <div className="WASDContainer">
@@ -133,7 +133,7 @@ function Video() {
               <div style= {{
                 marginTop: '5%',
               }}>
-                <Profile name="Martin Tang" /> //side profiles
+                <Profile name="Martin Tang" /> 
                 <Profile name="Kenn Du" />
                 <Profile name="Ray Ho" />
                 <Profile name="David Lee" />

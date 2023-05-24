@@ -55,10 +55,10 @@ function Video() {
   return ( // HTML compoenent of the page
     <div className="VideoPage">
       <Sidebar />
-      <div className="VideoContent"> // the webcam video component of the page
+      <div className="VideoContent"> 
         <div className="VideoHeader">
           <div className="HeaderTitle">Webcam View</div>
-          <div className='Signin'> // signin compoenet of the page
+          <div className='Signin'> 
                 {user?.displayName ? (
                     <button className="Signin" onClick={handleSignOut}>Logout</button>
                 ) : (
@@ -66,7 +66,7 @@ function Video() {
                 )}
               </div> 
         </div>
-        <div className="VideoBody"> // the webcam compoenet 
+        <div className="VideoBody"> 
           <div className="VideoBodyLeft">
             <div className="VideoComponent">
               <img src='http://localhost:8080/webcam_feed' alt='video'/>
@@ -83,7 +83,7 @@ function Video() {
                   backgroundColor: "#29282E"
               }}>
                   <div className="CardDescription">
-                    <div className='Signin'> // the dataset buttons to collect data
+                    <div className='Signin'> 
                       <button onClick={() => dataset()}>Collect Dataset</button>
                       <button onClick={() => train()}>Train Dataset</button>
                       <button onClick={() => refreshPage()}>Load Dataset</button>

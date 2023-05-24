@@ -44,7 +44,7 @@ const Signin = () => { //create the signin feature
                 objectFit: 'fill',
             }}/>
       </div> 
-      <div className="LoginPage"> // login button
+      <div className="LoginPage"> 
           <img src={Logo} className="LogoImg" alt="Labby Logo"></img> 
 
           <div className="LoginContainer">

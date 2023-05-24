@@ -30,9 +30,9 @@ const Sidebar = () => {
         <div
             style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }} // Setting the style of the div that contains the Sidebar component
         >
-            <CDBSidebar textColor="#fff" backgroundColor="#1e1e1e"> // Creating the Sidebar component with the necessary props
-                <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}> // Adding a header to the Sidebar
-                    <img src={spasm} alt="spasm" style={{ width: '50px', marginRight: "2px" }} /> // Adding the logo to the header
+            <CDBSidebar textColor="#fff" backgroundColor="#1e1e1e"> 
+                <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}> /
+                    <img src={spasm} alt="spasm" style={{ width: '50px', marginRight: "2px" }} /> 
                     <a
                         href="/"
                         className="text-decoration-none"
@@ -41,25 +41,25 @@ const Sidebar = () => {
                           SPASM.TV
                     </a>
                 </CDBSidebarHeader>
-                <CDBSidebarContent className="sidebar-content"> // Adding content to the Sidebar
+                <CDBSidebarContent className="sidebar-content"> 
                     <CDBSidebarMenu>
-                        <NavLink exact to="/webcam" activeClassName="activeClicked"> // Adding a link to the webcam page
-                            <CDBSidebarMenuItem icon="columns">Webcam</CDBSidebarMenuItem> // Adding a menu item for the webcam page
+                        <NavLink exact to="/webcam" activeClassName="activeClicked"> 
+                            <CDBSidebarMenuItem icon="columns">Webcam</CDBSidebarMenuItem> 
                         </NavLink>
-                        <NavLink exact to="/" activeClassName="activeClicked"> // Adding a link to the car FPV page
-                            <CDBSidebarMenuItem icon="table">Car FPV</CDBSidebarMenuItem> // Adding a menu item for the car FPV page
+                        <NavLink exact to="/" activeClassName="activeClicked"> 
+                            <CDBSidebarMenuItem icon="table">Car FPV</CDBSidebarMenuItem> 
                         </NavLink>
-                        <NavLink exact to="/profile" activeClassName="activeClicked"> // Adding a link to the profile page
-                            <CDBSidebarMenuItem icon="user">Profile Page</CDBSidebarMenuItem> // Adding a menu item for the profile page
+                        <NavLink exact to="/profile" activeClassName="activeClicked"> 
+                            <CDBSidebarMenuItem icon="user">Profile Page</CDBSidebarMenuItem> 
                         </NavLink>
-                        <NavLink exact to="/" activeClassName="activeClicked"> // Adding a link to the analytics page
+                        <NavLink exact to="/" activeClassName="activeClicked"> 
                             <CDBSidebarMenuItem icon="chart-line">
                                 Analytics
                             </CDBSidebarMenuItem>
                         </NavLink>
                     </CDBSidebarMenu>
                 </CDBSidebarContent>
-                <CDBSidebarFooter style={{ textAlign: 'center' }}> // Adding a footer to the Sidebar
+                <CDBSidebarFooter style={{ textAlign: 'center' }}> 
                 </CDBSidebarFooter>
             </CDBSidebar>
         </div>
